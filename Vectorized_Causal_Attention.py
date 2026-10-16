@@ -1,3 +1,5 @@
+# Implements Causal Self-Attention from scratch using pure NumPy.
+
 import numpy as np
 
 def vectorized_causal_attention(X, W_Q, W_K, W_V):
