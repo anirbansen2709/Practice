@@ -1,3 +1,5 @@
+# How to implement KV (Key-Value) Caching for auto-regressive text generation in a Transformer model
+
 import numpy as np
 
 def stream_token_with_cache(x, W_Q, W_K, W_V, kv_cache=None):
