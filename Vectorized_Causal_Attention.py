@@ -1,4 +1,4 @@
-# Implements Causal Self-Attention from scratch using pure NumPy.
+# Implements Causal Self-Attention from scratch using pure NumPy - No KV Caching - Prefill Only
 
 import numpy as np
 
